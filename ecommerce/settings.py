@@ -95,10 +95,10 @@ else:
     print("Database URL not found")
     DATABASES = {
         'default': {
-           'ENGINE': 'django.db.backends.sqlite3',
+            'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
-     }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -152,7 +152,6 @@ AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 
 STATICFILES_LOCATION = 'static'
 STATICFILES_STORAGE = 'custom_storages.StaticStorage'
-
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
