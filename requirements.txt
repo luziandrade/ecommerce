@@ -17,5 +17,5 @@ requests~=2.19.1
 six~=1.9
 stripe~=1.70.0
 wheel~=0.24.0
-urllib3==1.25.7
+urllib3==1.25.8
 webencodings==0.5.1
